@@ -1,0 +1,13 @@
+# Working Requirements (Python 3.13 compatible)
+# Core libraries that work without compilation issues
+opencv-python>=4.8.0
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+openpyxl>=3.1.0
+python-dateutil>=2.8.0
+
+# Optional: For face recognition (requires compilation)
+# face_recognition>=1.3.0  # Uncomment when dlib issue is resolved
+# dlib>=19.7               # Uncomment when compilation works
