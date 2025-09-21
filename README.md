@@ -7,6 +7,41 @@
 
 A comprehensive attendance management system built entirely with Python libraries, featuring both face recognition technology for automated attendance marking and a simple manual entry system.
 
+## 🚀 **Quick Start for New Users**
+
+**Want to run this app on your computer? It's easy!**
+
+### Option 1: Simple Version (Recommended for beginners)
+```bash
+# 1. Download the repository
+git clone https://github.com/YOUR_USERNAME/attendance-management-system.git
+cd attendance-management-system
+
+# 2. Install basic requirements
+pip install opencv-python numpy pandas matplotlib openpyxl pillow
+
+# 3. Run the simple app
+python app_simple.py
+```
+
+### Option 2: Full Version with Face Recognition
+```bash
+# Follow Option 1, then also install:
+pip install face_recognition
+
+# Run the full app
+python app.py
+```
+
+**📖 Need detailed instructions? Check [INSTALLATION.md](INSTALLATION.md)**
+
+## 📱 **Two Apps in One**
+
+| App | Features | Best For |
+|-----|----------|----------|
+| `app_simple.py` | Manual attendance, reports, Excel export | Quick setup, beginners, any Python version |
+| `app.py` | Everything above + face recognition | Advanced users, automatic attendance |
+
 ## 🚀 Features
 
 - **Face Recognition**: Automated attendance marking using facial recognition
@@ -35,11 +70,18 @@ A comprehensive attendance management system built entirely with Python librarie
 - **tkcalendar** - Calendar widgets for GUI
 - **reportlab** - PDF report generation
 
-## 📋 Prerequisites
+## � **Download & Installation**
 
-- Python 3.8 or higher
-- Webcam/Camera access
-- Windows/Linux/macOS
+### For End Users (Just want to use the app):
+1. **[📖 Read the Installation Guide](INSTALLATION.md)** - Complete step-by-step instructions
+2. **Download:** Click "Code" → "Download ZIP" or use `git clone`
+3. **Install:** `pip install -r requirements_working.txt`
+4. **Run:** `python app_simple.py`
+
+### For Developers:
+- Clone the repository: `git clone https://github.com/YOUR_USERNAME/attendance-management-system.git`
+- Install dev dependencies: `pip install -r requirement.txt`
+- Check [SETUP.md](SETUP.md) for detailed development setup
 
 ## 🛠️ Installation
 
